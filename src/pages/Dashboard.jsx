@@ -4,8 +4,7 @@ import Sidebar from '../components/Sidebar';
 const Dashboard = () => {
   return (
     <div>
-      Hello world
-      <div className="flex min-h-[100vh]">
+      <div className="flex min-h-[100vh] p-4 gap-4">
         <Sidebar />
         <div className="flex-1 w-full max-h-screen rounded-lg">
           <Outlet />

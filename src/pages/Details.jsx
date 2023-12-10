@@ -11,6 +11,8 @@ const Details = () => {
         symbol={symbol}
         theme="dark"
         autosize
+        allow_symbol_change={false}
+        
       ></AdvancedRealTimeChart>
     </div>
   );
