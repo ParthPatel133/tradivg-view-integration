@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { Combobox } from '@headlessui/react';
 import {
-  createBrowserRouter,
+  createHashRouter,
   RouterProvider,
   Route,
   Link,
@@ -10,7 +10,7 @@ import Dashboard from './pages/Dashboard';
 import Details from './pages/Details';
 
 function App() {
-  const router = createBrowserRouter([
+  const router = createHashRouter([
     {
       path: '/',
       element: <Dashboard />,
